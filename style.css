@@ -1,0 +1,91 @@
+* {
+	font-family: "Lato", sans-serif;
+}
+
+.bigtext {
+	font-size: 36px;
+}
+.smalltext {
+	font-size: 18px;
+}
+.bold {
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 572px) {
+	/* STYLING CHANGE BELOW 572px */
+
+	.bigtext {
+		font-size: 32px;
+	}
+	.smalltext {
+		font-size: 16px;
+	}
+}
+
+.firstpage {
+	height: 70vh;
+	width: 100%;
+
+	background-color: rgb(49, 49, 49);
+	color: white;
+
+	display: flex; /* FLEXBOX */
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.smedia a {
+	color: white;
+}
+#line {
+	height: 1px;
+	width: 60%;
+
+	background-color: white;
+}
+.about {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+.techs {
+	display: flex;
+	justify-content: center;
+
+	flex-wrap: wrap;
+}
+.tech_item {
+	border: 1px solid grey;
+	padding: 10px;
+	margin: 5px;
+
+	border-radius: 8px;
+}
+.experience {
+	margin-top: 3rem;
+}
+.experience__section {
+	padding: 2rem;
+}
+
+.expert__card {
+	height: 100px;
+	width: 280px;
+
+	background-color: #ffc107;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin: 10px;
+	border-radius: 10px;
+
+	box-shadow: 2px 2px 5px grey; /* box-shadow: x y spread color */
+}
+.experts {
+	display: flex;
+	justify-content: center;
+
+	flex-wrap: wrap;
+}

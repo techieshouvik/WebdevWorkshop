@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SChatterjee-Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!--LATO FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning sticky-top">
+
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><b>SChatterjee</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#project">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#experience">Experience</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+    </nav>
+
+    <div class="firstpage" id="home">     <!-- HERO / JUMBOTRON / LANDING FOLD -->
+
+        <!-- NAME -->
+
+        <div class="firstpage__name bigtext bold"> Shouuvik Chatterjee </div>
+
+        <!-- Profession -->
+
+        <div class="firstname__profession smalltext"> Full Stack Developer </div>
+
+        <hr id="line">
+
+        <!-- Social Media Icons -->
+        <div class="smedia bigtext">
+
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href=""><i class="fab fa-instagram-square"></i></a>
+            <a href=""><i class="fab fa-github-square"></i></a>
+
+        </div>
+
+    </div>
+
+    <!-- SECTION 2 : ABOUT -->
+    <div  id="about"></div>
+    <div class="about container">
+
+        <div class="about__head text-center bold bigtext">About me</div>
+
+        <div class="row">               <!--ROW-->
+
+            <div class="col-sm-4 p-4">      <!--COLUMN 1-->     
+                <img src="./Img/boy.svg" alt="Boy" class="img-fluid">
+            </div>
+
+            <div class="col-sm-8 smalltext p-4">      <!--COLUMN 2-->
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facilis expedita consectetur nemo cum est earum delectus tenetur repellat nesciunt fugiat itaque ut iure ipsa, labore qui repudiandae dignissimos adipisci voluptates esse. Repudiandae obcaecati cum reiciendis odio voluptates doloribus, eius ex rerum illum accusantium corrupti ea qui id quod nemo!
+            </div>
+
+        </div>
+        <div  id="project"></div>
+    </div>
+
+    <!-- SECTION 3 : PROJECTS -->
+    <div class="projects container" >
+        <div class="projects__head text-center bigtext bold">Projects</div>
+        <br>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="./Img/Website.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title bold">Website</h5>
+                  <p class="card-text smalltext">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./Img/Python.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title bold">Python-App</h5>
+                  <p class="card-text smalltext">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./Img/Java.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title bold">Java App</h5>
+                  <p class="card-text smalltext">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </div>
+
+
+    <!-- SECTION 4 : EXPERIENCE -->
+    <div class="experience container" id="experience">
+
+        <div class="experience__head bigtext bold text-center">Experience</div>
+
+        <div class="experience__section">
+
+            <div class="experience__sectionHead bigtext text-center">Tech Stack</div>
+
+            <div class="techs smalltext">   <!-- ALL TECHS-->
+
+                <div class="tech_item">HTML</div>
+                <div class="tech_item">CSS</div>
+                <div class="tech_item">Bootstrap</div>
+                <div class="tech_item">MERN</div>
+                <div class="tech_item">JavaScript</div>
+
+            </div>
+
+        </div>
+
+        <div class="experience__section">
+
+            <div class="experience__sectionHead bigtext text-center">Expertise</div>
+            
+            <div class="experts">
+
+                <div class="expert__card smalltext bold">Web Development</div>
+                <div class="expert__card smalltext bold">Web Design</div>
+                <div class="expert__card smalltext bold">UI/UX</div>
+                <div class="expert__card smalltext bold">Graphic Design</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--footer-->
+    <div class="footer text-center bg-dark p-2 text-muted">
+
+        (c) Copyrights Shouuvik Chatterjee
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
